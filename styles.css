@@ -9,3 +9,13 @@
     font-size: 2em;
     font-weight: bold;
 }
+
+.navBarItemBackground{
+    background-color: #eae2e2;
+    border-radius: 15%;
+}
+
+.navBarItemBackground:hover{
+    background-color: #d4caca;    
+    transition: background-color 0.3s ease;
+}
