@@ -11,17 +11,48 @@
 }
 
 .navBarItemBackground{
-    background-color: #eae2e2;
+    background-color: #e3eaeb;
     border-radius: 15%;
 }
 
 .navBarItemBackground:hover{
-    background-color: #d4caca;    
+    background-color: #bbbdbd;    
     transition: background-color 0.3s ease;
 }
+
+.servicesCardSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.servicesCard{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 1em;
+    text-align: justify;
+}
+
+.servicesCard:hover{
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    transform: translateY(-5px);
+    
+}
+
 
 @media screen and (max-width: 768px) {
     .navBarItemBackground{
         background-color: transparent;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .servicesCard{
+        width: 100%;
+    }    
 }
