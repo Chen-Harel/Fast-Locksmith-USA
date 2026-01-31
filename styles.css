@@ -16,7 +16,7 @@
 }
 
 .navBarItemBackground:hover{
-    background-color: #bbbdbd;    
+    background-color: #e3e3e3;    
     transition: background-color 0.3s ease;
 }
 
