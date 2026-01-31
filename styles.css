@@ -49,10 +49,7 @@
     .navBarItemBackground{
         background-color: transparent;
     }
-}
-
-@media screen and (max-width: 768px) {
     .servicesCard{
         width: 100%;
-    }    
+    }
 }
