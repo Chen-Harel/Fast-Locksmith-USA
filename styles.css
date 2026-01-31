@@ -19,3 +19,9 @@
     background-color: #d4caca;    
     transition: background-color 0.3s ease;
 }
+
+@media screen and (max-width: 768px) {
+    .navBarItemBackground{
+        background-color: transparent;
+    }
+}
