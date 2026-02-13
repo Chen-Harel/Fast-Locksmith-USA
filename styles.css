@@ -3,6 +3,14 @@
 /* lightish brown #E1D0B3 */
 /* darkish brown #A18D6D */
 /* brown #703B3B */
+@keyframes moveUpDown {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(-3px);}
+    100% {transform: translateY(0px);}
+}
+.callButton:hover{
+    animation: moveUpDown 1.5s infinite;
+}
 
 .underNavHeading{
     height: 7em;
