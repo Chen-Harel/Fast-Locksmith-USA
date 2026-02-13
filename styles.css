@@ -1,3 +1,9 @@
+/* colors */
+/* blueish #9BB4C0 */
+/* lightish brown #E1D0B3 */
+/* darkish brown #A18D6D */
+/* brown #703B3B */
+
 .underNavHeading{
     height: 7em;
     width: 100%;
@@ -29,7 +35,6 @@
 }
 
 .servicesCard{
-    /* background-color: #f5f5f5; */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 400px;
@@ -53,7 +58,6 @@
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
     transform: translateY(-5px);
-    
 }
 
 .heroBackground{
@@ -68,6 +72,9 @@
         background-color: transparent;
     }
     .servicesCard{
+        width: 100%;
+    }
+    .callButton{
         width: 100%;
     }
 }
