@@ -29,16 +29,6 @@
     font-weight: bold;
 }
 
-.navBarItemBackground{
-    background-color: rgb(193, 197, 193);
-    border-radius: 15%;
-}
-
-.navBarItemBackground:hover{
-    background-color: rgb(177, 183, 177);    
-    transition: background-color 0.3s ease;
-}
-
 .servicesCardSection{
     display: flex;
     flex-wrap: wrap;
@@ -81,9 +71,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .navBarItemBackground{
-        background-color: transparent;
-    }
     .servicesCard{
         width: 100%;
     }
